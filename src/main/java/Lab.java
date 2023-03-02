@@ -13,7 +13,8 @@ public class Lab {
         if (a < b){
             return "Lesser";
         }else if (a > b){
-            return "greater";
+            return "Greater";
+        }else{
         }
         return "Equal";
     }
