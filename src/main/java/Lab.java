@@ -12,6 +12,8 @@ public class Lab {
     public String decide(int a, int b){
         if (a < b){
             return "Lesser";
+        }else if (a > b){
+            return "greater";
         }
         return "Equal";
     }
